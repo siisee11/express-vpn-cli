@@ -1,0 +1,27 @@
+{
+  "name": "evpn",
+  "version": "0.1.0",
+  "description": "Unofficial CLI wrapper for the local ExpressVPN desktop client.",
+  "license": "MIT",
+  "author": "",
+  "bin": {
+    "evpn": "bin/evpn.js"
+  },
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "smoke": "node bin/evpn.js --version && node bin/evpn.js where"
+  },
+  "keywords": [
+    "vpn",
+    "cli",
+    "expressvpn",
+    "macos"
+  ]
+}
