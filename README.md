@@ -9,7 +9,7 @@ ExpressVPN desktop app.
 ## Install
 
 ```sh
-npm install -g evpn
+npm install -g @siisee11/evpn
 ```
 
 ## Requirements
@@ -84,7 +84,7 @@ evpn raw set networklock true
 Before publishing, make sure the package name is still available:
 
 ```sh
-npm view evpn
+npm view @siisee11/evpn
 ```
 
 Publish:
@@ -97,7 +97,7 @@ npm publish --access public
 Then verify:
 
 ```sh
-npm install -g evpn
+npm install -g @siisee11/evpn
 evpn status
 ```
 
